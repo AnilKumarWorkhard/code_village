@@ -1,0 +1,17 @@
+{
+  "name": "code-village",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "maki dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tialops/maki": "^1.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

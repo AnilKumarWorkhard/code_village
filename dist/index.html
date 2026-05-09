@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Village</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        background:
+          radial-gradient(circle at top, rgba(114, 167, 255, 0.45), transparent 35%),
+          radial-gradient(circle at 85% 15%, rgba(255, 229, 141, 0.22), transparent 22%),
+          linear-gradient(180deg, #0e1630 0%, #101b35 45%, #081018 100%);
+        overflow: hidden;
+      }
+
+      #app,
+      body > canvas {
+        width: 100vw !important;
+        height: 100vh !important;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background:
+          linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+          linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 32px 32px;
+        opacity: 0.35;
+      }
+
+      body {
+        image-rendering: pixelated;
+      }
+
+      canvas {
+        display: block;
+        margin: 0 auto;
+        image-rendering: pixelated;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-bO4NTOxV.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
